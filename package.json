@@ -24,7 +24,9 @@
         "tuya"
     ],
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "docker:build":"docker build . -f Dockerfile -t robertbell96/discordtimebot",
+        "docker:push":"docker push robertbell96/discordtimebot"
     },
     "author": "cajonKA",
     "repository": {
